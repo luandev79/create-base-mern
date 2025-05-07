@@ -1,0 +1,29 @@
+{
+    "name": "create-base-mern",
+    "version": "1.0.0",
+    "description": "_A ready-to-use fullstack structure for MERN (MongoDB, Express, React, Node.js) projects._",
+    "main": "bin/index.js",
+    "bin": {
+        "create-base-mern": "bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node bin/index.js"
+    },
+    "keywords": [
+        "fullstack",
+        "mern",
+        "mongodb",
+        "express",
+        "react",
+        "nodejs",
+        "template",
+        "structure"
+    ],
+    "author": "learnIt",
+    "license": "MIT",
+    "type": "commonjs",
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
