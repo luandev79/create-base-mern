@@ -1,6 +1,6 @@
 {
     "name": "create-base-mern",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "_A ready-to-use fullstack structure for MERN (MongoDB, Express, React, Node.js) projects._",
     "main": "bin/index.js",
     "bin": {
@@ -25,5 +25,8 @@
     "type": "commonjs",
     "engines": {
         "node": ">=14.0.0"
+    },
+    "dependencies": {
+        "simple-git": "^3.27.0"
     }
 }
