@@ -31,7 +31,7 @@ const cloneRepo = async () => {
             // force: true -> will ignore errors if the directory does not exist, allowing the deletion to proceed without interruption
         }
         console.log(`Created project ${projectName} successfully!`);
-        console.log(`Navigate to the project directory: cd ${projectName} \n npm install \n npm run dev`);
+        console.log(`Navigate to the project directory: \n cd ${projectName} \n npm install \n npm run dev`);
     } catch (error) {
         console.error('Error cloning repository:', error.message);
         process.exit(1);
