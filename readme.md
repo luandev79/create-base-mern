@@ -12,7 +12,7 @@ _A ready-to-use fullstack structure for MERN (MongoDB, Express, React, Node.js) 
 First step is to install the `fullstack-mern` package npm:
 
 ```bash
-npx create-fullstack-mern <project-name>
+npx create-base-mern <project-name>
 cd <project-name>
 npm install
 ```
